@@ -30,6 +30,17 @@ android {
 }
 
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.jessica.testingsdk'
+            artifactId = 'mylibrary'
+            version = '1.0.0'
+
+        }
+    }
+}
+
 
 dependencies {
 
