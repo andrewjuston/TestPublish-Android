@@ -11,7 +11,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 3
-        versionName "1.0.3"
+        versionName "1.0.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -33,10 +33,9 @@ android {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'com.jessica.testingsdk'
+            groupId = 'com.jessica.mylibrary'
             artifactId = 'mylibrary'
-            version = '1.0.3'
-
+            version = '1.0.4'
         }
     }
 }
