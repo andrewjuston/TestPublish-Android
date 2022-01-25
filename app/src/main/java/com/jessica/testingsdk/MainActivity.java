@@ -1,12 +1,11 @@
 package com.jessica.testingsdk;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.jessica.mylibrary.TesterObject;
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.jessica.mylibrary.*;
 
 public class MainActivity extends AppCompatActivity {
     TesterObject test;
