@@ -36,6 +36,7 @@ publishing {
             groupId = 'com.jessica.mylibrary'
             artifactId = 'mylibrary'
             version = '1.0.4'
+            artifact("$buildDir/outputs/aar/mylibrary-release.aar")
         }
     }
 }

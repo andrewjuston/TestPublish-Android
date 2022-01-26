@@ -5,7 +5,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.jessica.mylibrary.*;
+import com.jessica.mylibrary.TesterObject;
+
 
 public class MainActivity extends AppCompatActivity {
     TesterObject test;
